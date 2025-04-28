@@ -1,0 +1,657 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Linux - 6.14.4-arch1-1 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      4
+      c++: internal compiler error: Segmentation fault signal terminated program cc1plus
+      Please submit a full bug report, with preprocessed source (by using -freport-bug).
+      See <https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues> for instructions.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      4
+      c++: internal compiler error: Segmentation fault signal terminated program cc1plus
+      Please submit a full bug report, with preprocessed source (by using -freport-bug).
+      See <https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues> for instructions.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      c++: error: unrecognized command-line option ‘--c++’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      c++: error: unrecognized command-line option ‘--ec++’; did you mean ‘-Weffc++’?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      c++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      c++: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      4
+      c++: internal compiler error: Segmentation fault signal terminated program cc1plus
+      Please submit a full bug report, with preprocessed source (by using -freport-bug).
+      See <https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues> for instructions.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      4
+      c++: internal compiler error: Segmentation fault signal terminated program cc1plus
+      Please submit a full bug report, with preprocessed source (by using -freport-bug).
+      See <https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues> for instructions.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      4
+      c++: internal compiler error: Segmentation fault signal terminated program cc1plus
+      Please submit a full bug report, with preprocessed source (by using -freport-bug).
+      See <https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues> for instructions.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      c++: error: unrecognized command-line option ‘--c++’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      c++: error: unrecognized command-line option ‘--ec++’; did you mean ‘-Weffc++’?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      c++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      c++: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      4
+      c++: internal compiler error: Segmentation fault signal terminated program cc1plus
+      Please submit a full bug report, with preprocessed source (by using -freport-bug).
+      See <https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues> for instructions.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      c++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      c++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-HqYSAT"
+      binary: "/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-HqYSAT"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-HqYSAT'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8627b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8627b.dir/build.make CMakeFiles/cmTC_8627b.dir/build
+        make[1]: Entering directory '/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-HqYSAT'
+        Building CXX object CMakeFiles/cmTC_8627b.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++    -o CMakeFiles/cmTC_8627b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        c++: internal compiler error: Segmentation fault signal terminated program cc1plus
+        Please submit a full bug report, with preprocessed source (by using -freport-bug).
+        See <https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues> for instructions.
+        make[1]: *** [CMakeFiles/cmTC_8627b.dir/build.make:81: CMakeFiles/cmTC_8627b.dir/CMakeCXXCompilerABI.cpp.o] Error 4
+        make[1]: Leaving directory '/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-HqYSAT'
+        make: *** [Makefile:134: cmTC_8627b/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Check for working CXX compiler: /usr/bin/c++"
+    directories:
+      source: "/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-PeWSHS"
+      binary: "/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-PeWSHS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-PeWSHS'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7ff84/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7ff84.dir/build.make CMakeFiles/cmTC_7ff84.dir/build
+        make[1]: Entering directory '/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-PeWSHS'
+        Building CXX object CMakeFiles/cmTC_7ff84.dir/testCXXCompiler.cxx.o
+        /usr/bin/c++    -o CMakeFiles/cmTC_7ff84.dir/testCXXCompiler.cxx.o -c /home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-PeWSHS/testCXXCompiler.cxx
+        c++: internal compiler error: Segmentation fault signal terminated program cc1plus
+        Please submit a full bug report, with preprocessed source (by using -freport-bug).
+        See <https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues> for instructions.
+        make[1]: *** [CMakeFiles/cmTC_7ff84.dir/build.make:81: CMakeFiles/cmTC_7ff84.dir/testCXXCompiler.cxx.o] Error 4
+        make[1]: Leaving directory '/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-PeWSHS'
+        make: *** [Makefile:134: cmTC_7ff84/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      4
+      c++: internal compiler error: Segmentation fault signal terminated program cc1plus
+      Please submit a full bug report, with preprocessed source (by using -freport-bug).
+      See <https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues> for instructions.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      4
+      c++: internal compiler error: Segmentation fault signal terminated program cc1plus
+      Please submit a full bug report, with preprocessed source (by using -freport-bug).
+      See <https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues> for instructions.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      c++: error: unrecognized command-line option ‘--c++’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      c++: error: unrecognized command-line option ‘--ec++’; did you mean ‘-Weffc++’?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      c++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      c++: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      4
+      c++: internal compiler error: Segmentation fault signal terminated program cc1plus
+      Please submit a full bug report, with preprocessed source (by using -freport-bug).
+      See <https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues> for instructions.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      4
+      c++: internal compiler error: Segmentation fault signal terminated program cc1plus
+      Please submit a full bug report, with preprocessed source (by using -freport-bug).
+      See <https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues> for instructions.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      4
+      c++: internal compiler error: Segmentation fault signal terminated program cc1plus
+      Please submit a full bug report, with preprocessed source (by using -freport-bug).
+      See <https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues> for instructions.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      c++: error: unrecognized command-line option ‘--c++’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      c++: error: unrecognized command-line option ‘--ec++’; did you mean ‘-Weffc++’?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      c++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      c++: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      4
+      c++: internal compiler error: Segmentation fault signal terminated program cc1plus
+      Please submit a full bug report, with preprocessed source (by using -freport-bug).
+      See <https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues> for instructions.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      c++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      c++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-QjKPb6"
+      binary: "/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-QjKPb6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-QjKPb6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bc7f5/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_bc7f5.dir/build.make CMakeFiles/cmTC_bc7f5.dir/build
+        make[1]: Entering directory '/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-QjKPb6'
+        Building CXX object CMakeFiles/cmTC_bc7f5.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++    -o CMakeFiles/cmTC_bc7f5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        c++: internal compiler error: Segmentation fault signal terminated program cc1plus
+        Please submit a full bug report, with preprocessed source (by using -freport-bug).
+        See <https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues> for instructions.
+        make[1]: *** [CMakeFiles/cmTC_bc7f5.dir/build.make:81: CMakeFiles/cmTC_bc7f5.dir/CMakeCXXCompilerABI.cpp.o] Error 4
+        make[1]: Leaving directory '/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-QjKPb6'
+        make: *** [Makefile:134: cmTC_bc7f5/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Check for working CXX compiler: /usr/bin/c++"
+    directories:
+      source: "/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-zuv0Tw"
+      binary: "/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-zuv0Tw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-zuv0Tw'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_800d5/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_800d5.dir/build.make CMakeFiles/cmTC_800d5.dir/build
+        make[1]: Entering directory '/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-zuv0Tw'
+        Building CXX object CMakeFiles/cmTC_800d5.dir/testCXXCompiler.cxx.o
+        /usr/bin/c++    -o CMakeFiles/cmTC_800d5.dir/testCXXCompiler.cxx.o -c /home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-zuv0Tw/testCXXCompiler.cxx
+        c++: internal compiler error: Segmentation fault signal terminated program cc1plus
+        Please submit a full bug report, with preprocessed source (by using -freport-bug).
+        See <https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues> for instructions.
+        make[1]: *** [CMakeFiles/cmTC_800d5.dir/build.make:81: CMakeFiles/cmTC_800d5.dir/testCXXCompiler.cxx.o] Error 4
+        make[1]: Leaving directory '/home/andi/Project/cpp/cpp-gui-template-sdl2/CMakeFiles/CMakeScratch/TryCompile-zuv0Tw'
+        make: *** [Makefile:134: cmTC_800d5/fast] Error 2
+        
+      exitCode: 2
+...
